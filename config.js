@@ -16,23 +16,23 @@ global.allowJids = process.env.ALLOW_JID || "94789958225@s.whatsapp.net";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "srilank/ampara";
-global.github = process.env.GITHUB || "https://github.com/DEXTER-BOTS/RCD-MD";
+global.github = process.env.GITHUB || "https://github.com/Niroshan112/RCD-MD";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vag1WQFJf05dF0pQeU3u";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vag1WQFJf05dF0pQeU3u";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/1f4e6e1cc2ed1662adb36.jpg";
 global.devs = "94789958225";
-global.sudo = process.env.SUDO || "94789958225,94757660788,94770730717,94785274495,94753574803";
-global.owner = process.env.OWNER_NUMBER || "94789958225,94753574803";
+global.sudo = process.env.SUDO || "94716682532,94702728923";
+global.owner = process.env.OWNER_NUMBER || "94714184446";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
-global.wlcm = process.env.WELCOME || "true";
+global.wlcm = process.env.WELCOME || "false";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
 global.userImages = process.env.USER_IMAGES || "";
-global.waPresence = process.env.WAPRESENCE || "recording";
-global.readcmds = process.env.READ_COMMAND || "false";
+global.waPresence = process.env.WAPRESENCE || "nothing";
+global.readcmds = process.env.READ_COMMAND || "true";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
@@ -51,11 +51,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "𝗥𝗖𝗗 𝗠𝗗 𝗣𝗢𝗪𝗘𝗥 𝗕𝗬 🇱🇰",
-  author: process.env.PACK_AUTHER || "𝐑𝐂𝐃",
+  caption: process.env.CAPTION || "ＰＯＷＥＲ ＢＹ ℂℝ𝔸𝕎𝕃 🇱🇰",
+  author: process.env.PACK_AUTHER || "ℂℝ𝔸𝕎𝕃",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "𝐑𝐂𝐃 𝐌𝐃",
-  ownername: process.env.OWNER_NAME || "𝗥𝗖𝗗 𝗧𝗘𝗔𝗠",
+  botname: process.env.BOT_NAME || "ℂℝ𝔸𝕎𝕃 𝕄𝔻",
+  ownername: process.env.OWNER_NAME || "ℂℝ𝔸𝕎𝕃",
   errorChat: process.env.ERROR_CHAT || "94789958225",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
